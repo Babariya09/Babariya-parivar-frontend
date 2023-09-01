@@ -1,0 +1,101 @@
+/*********************************** header */
+.header {
+  z-index: 99;
+  height: 70px;
+  background: var(--header-color);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoHead {
+  flex: 6;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 20px;
+}
+.iconUser {
+  font-size: 28px;
+  background: var(--lightgrey);
+  padding: 3px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.ant-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linksHead {
+  flex: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonHead {
+  flex: 6;
+  display: flex;
+  justify-content: end;
+}
+.ant-input {
+  max-width: 250px;
+  height: 33px;
+}
+.anticon-caret-up {
+  font-size: 50px;
+}
+
+/* **************************** */
+.partTwo {
+  height: 100vh;
+  display: flex;
+  margin-top: 70px;
+}
+
+.sidebar {
+  display: none;
+  overflow-y: scroll;
+  flex: 1;
+  border-radius: 0px 10px 10px 0px;
+  overflow-y: scroll;
+  flex: 1 1;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 2px 2px 11px var(--lightgrey);
+  background-color: var(--white-color);
+}
+.sidebar.open {
+  display: block;
+  animation: slideIn 0.3s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 0px;
+}
+.partTwo::-webkit-scrollbar {
+  width: 0px;
+}
+
+.content {
+  overflow-y: scroll;
+  flex: 10;
+}
+.content::-webkit-scrollbar {
+  width: 0px;
+}

@@ -1,0 +1,89 @@
+
+.my-form {
+    margin: 20px;
+  }
+  
+  .cl_left {
+    margin-right: 15px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 768px) {
+    .d-flex {
+      flex-direction: column;
+    }
+  
+    .cl_left {
+      margin-right: 0;
+    }
+    
+    .col-6 {
+      margin-bottom: 15px;
+    }
+  }
+
+  .custom-accordion-header {
+    background-color: #f0f0f0; /* Change to your desired color */
+    color: #333; /* Change to your desired color */
+  }
+
+   /* Popup style */
+.popup-box {
+  position: fixed;
+  z-index: 10;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(16.2% - 30px);
+  top: calc(100vh - 85vh - 31px);
+  background: #ededed;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+
+.close {
+  padding: 8px 18px;
+  background-color:#4895C9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* position: fixed; */
+}
+
+.Dform{
+  z-index: 99;
+}

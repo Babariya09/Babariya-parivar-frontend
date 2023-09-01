@@ -1,0 +1,58 @@
+.accordion-button{
+    background-color: #4995C8 !important; 
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .btn-primary {
+    margin-top: 25px;
+  }
+  .my-form {
+    margin: 20px;
+  }
+  
+  .cl_left {
+    margin-right: 15px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-label {
+      padding-top: 20px;
+  } 
+  
+  @media (max-width: 768px) {
+    .d-flex {
+      flex-direction: column;
+    }
+  
+    .cl_left {
+      margin-right: 0;
+    }
+  
+    .col-6 {
+      margin-bottom: 15px;
+    }
+  }
+  /* EntryForm.css */
+
+.text-danger {
+  color: red;
+}
+
+.form-control.is-invalid {
+  border-color: red;
+}
+
+span.head{
+  color: white;
+}
+
+.close{
+  margin-right: 1%;
+}
